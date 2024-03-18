@@ -7,7 +7,7 @@ with DAG(
     dag_id='dags_branch_python_operator',
     start_date=datetime(2024,3,18),
     schedule=None,
-    catchup=false
+    catchup=False
 ) as dag:
     def select_random():
         import random 
