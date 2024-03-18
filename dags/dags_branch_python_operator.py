@@ -34,7 +34,7 @@ with DAG(
     )
     
     task_b = PythonOperator(
-        taks_id='task_b',
+        task_id='task_b',
         python_callable=common_func,
         op_kwargs={'selected':'B'}
     )
