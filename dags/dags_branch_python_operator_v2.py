@@ -4,7 +4,7 @@ from airflow.operators.python import PythonOperator
 from airflow.operators.python import BranchPythonOperator
 
 with DAG(
-    dag_id='dags_branch_python_operator',
+    dag_id='dags_branch_python_operator_v2',
     start_date=datetime(2024,3,18),
     schedule=None,
     catchup=False
